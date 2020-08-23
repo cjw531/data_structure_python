@@ -16,7 +16,7 @@ class SinglyLinkedList:
         
         idx = 0
         current = self.head
-        while (current != None):
+        while (idx <= index):
             if (idx == index):
                 return current
             current = current.next
