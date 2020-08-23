@@ -53,8 +53,12 @@ class SinglyLinkedList:
         self.size += 1
 
     def remove (self, index):
+        # remove when there's 1 elem left
+        if (self.size == 1):
+            self.head = None
+            self.tail = None
         # remove head
-        if (index == 0): 
+        elif (index == 0): 
             temp = self.head
             self.head = self.head.next
             temp.next = None
@@ -209,6 +213,31 @@ if __name__ == '__main__':
     sll.remove(1)
     print ("Head node value:", sll.head.value, "\nHead node next:", sll.head.next.value)
     print ("Tail node value:", sll.tail.value, "\nTail node next:", sll.tail.next)
+    print ("Current SLL size:", sll.size)
+
+    print ("\nCurrent SLL:")
+    current = sll.head
+    while (current != None):
+        print ("Node value:", current.value)
+        current = current.next
+
+    print ("\n========== Testing: remove() 2 more ==========")
+    sll.remove(0)
+    sll.remove(1)
+    print ("Head node value:", sll.head.value)
+    print ("Tail node value:", sll.tail.value)
+    print ("Current SLL size:", sll.size)
+
+    print ("\nCurrent SLL:")
+    current = sll.head
+    while (current != None):
+        print ("Node value:", current.value)
+        current = current.next
+
+    print ("\n========== Testing: remove() the last node ==========")
+    sll.remove(0)
+    print ("Head node:", sll.head)
+    print ("Tail node:", sll.tail)
     print ("Current SLL size:", sll.size)
 
     print ("\nCurrent SLL:")
