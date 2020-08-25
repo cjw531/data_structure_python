@@ -38,8 +38,14 @@ class DoublyLinkedList:
         return None
 
     def insert (self, index, node): 
+        # when list is empty
+        if (self.size == 0):
+            node.prev = None
+            node.next = None
+            self.head = node
+            self.tail = node
         # insert at head's position
-        if (index == 0): 
+        elif (index == 0): 
             self.head.prev = node
             node.prev = None
             node.next = self.head
