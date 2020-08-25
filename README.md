@@ -9,6 +9,7 @@ Data Structures Implementation in Python
 | Doubly Linked List | [`doubly_linked_list.py`][dll]           | 8/23/2020 (GMT+9) | 8/26/2020 (GMT+9) |
 | Stack | [`stack.py`][stack]           | 8/25/2020 (GMT+9) | 8/25/2020 (GMT+9) |
 | Queue | [`queue.py`][queue]           | 8/26/2020 (GMT+9) | 8/26/2020 (GMT+9) |
+| Double-Ended Queue (Deque) | [`deque.py`][deque]           | 8/26/2020 (GMT+9) | 8/26/2020 (GMT+9) |
 
 <!---Reference Links-->
 [vector]:../master/vector.py
@@ -16,3 +17,4 @@ Data Structures Implementation in Python
 [dll]:../master/doubly_linked_list.py
 [stack]:../master/stack.py
 [queue]:../master/queue.py
+[deque]:../master/deque.py
