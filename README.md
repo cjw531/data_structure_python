@@ -10,7 +10,7 @@ Data Structures Implementation in Python
 | Stack |Array (List)| [`stack.py`][stack]  |8/25/2020 (GMT+9) |
 | Queue |Array (List), Two Stack| [`queue.py`][queue]  |8/26/2020 (GMT+9) |
 | Double-Ended Queue (Deque) |Doubly Linked List| [`deque.py`][deque] |8/26/2020 (GMT+9) |
-| Priority Queue |Vector, Doubly Linked List| [`priority_queue.py`][pq]  |8/26/2020 (GMT+9) |
+| Priority Queue |Vector, Doubly Linked List, Heap| [`priority_queue.py`][pq]  |8/27/2020 (GMT+9) |
 | Min Heap | Array (List) | [`min_heap.py`][mh]  |8/27/2020 (GMT+9) |
 
 <!---Reference Links-->
