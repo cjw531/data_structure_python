@@ -1,5 +1,6 @@
 from vector import *
 from doubly_linked_list import *
+from min_heap import *
 
 class VectorPriorityQueue:
     def __init__ (self):
@@ -108,6 +109,36 @@ class LinkedListPriorityQueue:
         
         return result
 
+class HeapPriorityQueue():
+    def __init__ (self):
+        self.hpq = MinHeap()
+        self.size = 0
+    
+    # log(n)
+    def push (self, element):
+        self.hpq.push(element)
+        self.size += 1
+    
+    # log(n)
+    def pop (self):
+        if (self.size == 0):
+            return None
+        self.hpq.pop()
+        self.size -= 1
+    
+    def top (self):
+        if (self.size == 0):
+            return None
+        return self.hpq.top()
+
+    def is_empty (self):
+        if (self.size == 0):
+            return True
+        return False
+
+    def hpq_size (self):
+        return self.size
+
 def priority_queue_functionality_test(pq):
     print ("When PQ has nothing, is it empty?:", pq.is_empty())
 
@@ -205,6 +236,59 @@ def linked_list_priority_queue_functionality_test(pq):
     print ("Current top:", pq.top())
     print ("When PQ has nothing, is it empty?:", pq.is_empty())
 
+def heap_priority_queue_functionality_test(pq):
+    print ("When PQ has nothing, is it empty?:", pq.is_empty())
+
+    # push, top, size test
+    pq.push(5)
+    print ("After pusing 5, heap:\n", pq.hpq.heap)
+    print ("Current size:", pq.size)
+    print ("Current top:", pq.top())
+    pq.push(9)
+    print ("After pusing 9, heap:\n", pq.hpq.heap)
+    print ("Current size:", pq.size)
+    print ("Current top:", pq.top())
+    pq.push(2)
+    print ("After pusing 2, heap:\n", pq.hpq.heap)
+    print ("Current size:", pq.size)
+    print ("Current top:", pq.top())
+    pq.push(7)
+    print ("After pusing 7, heap:\n", pq.hpq.heap)
+    print ("Current size:", pq.size)
+    print ("Current top:", pq.top())
+    pq.push(4)
+    print ("After pusing 4, heap:\n", pq.hpq.heap)
+    print ("Current size:", pq.size)
+    print ("Current top:", pq.top())
+    print ("When PQ has 5 elements, is it empty?:", pq.is_empty())
+
+    # pop test
+    print("Pop from PQ:", pq.pop())
+    print ("After pop, heap:\n", pq.hpq.heap)
+    print ("Current size:", pq.size)
+    print ("Current top:", pq.top())
+
+    print("Pop from PQ:", pq.pop())
+    print ("After pop, heap:\n", pq.hpq.heap)
+    print ("Current size:", pq.size)
+    print ("Current top:", pq.top())
+
+    print("Pop from PQ:", pq.pop())
+    print ("After pop, heap:\n", pq.hpq.heap)
+    print ("Current size:", pq.size)
+    print ("Current top:", pq.top())
+
+    print("Pop from PQ:", pq.pop())
+    print ("After pop, heap:\n", pq.hpq.heap)
+    print ("Current size:", pq.size)
+    print ("Current top:", pq.top())
+
+    print("Pop from PQ:", pq.pop())
+    print ("After pop, heap:\n", pq.hpq.heap)
+    print ("Current size:", pq.size)
+    print ("Current top:", pq.top())
+    print ("When PQ has nothing, is it empty?:", pq.is_empty())
+
 if __name__ == '__main__':
     vpq = VectorPriorityQueue()
     print ("========== TEST: Priority Queue based on vector (list) ==========")
@@ -213,3 +297,7 @@ if __name__ == '__main__':
     dllpq = LinkedListPriorityQueue()
     print ("========== TEST: Priority Queue based on Doubly Linked List ==========")
     linked_list_priority_queue_functionality_test(dllpq)
+
+    hpq = HeapPriorityQueue()
+    print ("========== TEST: Priority Queue based on Heap ==========")
+    heap_priority_queue_functionality_test(hpq)
