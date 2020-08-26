@@ -10,6 +10,7 @@ Data Structures Implementation in Python
 | Stack | [`stack.py`][stack]           | 8/25/2020 (GMT+9) | 8/25/2020 (GMT+9) |
 | Queue | [`queue.py`][queue]           | 8/26/2020 (GMT+9) | 8/26/2020 (GMT+9) |
 | Double-Ended Queue (Deque) | [`deque.py`][deque]           | 8/26/2020 (GMT+9) | 8/26/2020 (GMT+9) |
+| Priority Queue | [`priority_queue.py`][pq]           | 8/26/2020 (GMT+9) | 8/26/2020 (GMT+9) |
 
 <!---Reference Links-->
 [vector]:../master/vector.py
@@ -18,3 +19,4 @@ Data Structures Implementation in Python
 [stack]:../master/stack.py
 [queue]:../master/queue.py
 [deque]:../master/deque.py
+[pq]:../master/priority_queue.py
