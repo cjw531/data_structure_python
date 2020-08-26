@@ -51,7 +51,7 @@ class DoublyLinkedList:
             node.next = self.head
             self.head = node
         # insert after tail -> push_back
-        elif (index == self.size - 1):
+        elif (index == self.size):
             self.push_back(node)
             return
         else: # insert at the middle
