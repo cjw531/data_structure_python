@@ -11,7 +11,7 @@ class VectorPriorityQueue:
         self.vpq.push_back(element)
         self.size += 1
 
-    # O(n)
+    # O(n), act as a selection sort
     def pop (self):
         if (self.size == 0):
             return None
@@ -52,7 +52,7 @@ class LinkedListPriorityQueue:
         self.dllpq = DoublyLinkedList()
         self.size = 0
 
-    # O(n)
+    # O(n), act as an insertion sort
     def push (self, element):
         node = Node(element, None, None)
 
@@ -73,6 +73,7 @@ class LinkedListPriorityQueue:
         
         self.size += 1
 
+    # O(1)
     def pop (self):
         if (self.size == 0):
             return None
@@ -89,7 +90,6 @@ class LinkedListPriorityQueue:
         
         return (self.dllpq.head.value)
 
-    # O(1)
     def is_empty (self):
         if (self.size == 0):
             return True
