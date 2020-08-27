@@ -13,6 +13,7 @@ Data Structures Implementation in Python
 | Priority Queue |Vector, Doubly Linked List, Heap| [`priority_queue.py`][pq]  |8/27/2020 (GMT+9) |
 | Min Heap | Array (List) | [`min_heap.py`][mh]  |8/27/2020 (GMT+9) |
 | Tree (Depth Calculation) | Recursive, Stack | [`tree_depth.py`][td]  |8/28/2020 (GMT+9) |
+| Tree Traversal (Pre/In/Post Order) | Recursive | [`tree_traversal.py`][tt]  |8/28/2020 (GMT+9) |
 
 <!---Reference Links-->
 [vector]:../master/vector.py
@@ -24,3 +25,4 @@ Data Structures Implementation in Python
 [pq]:../master/priority_queue.py
 [mh]:../master/min_heap.py
 [td]:../master/tree_depth.py
+[tt]:../master/tree_traversal.py
