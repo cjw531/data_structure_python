@@ -2,7 +2,7 @@
 Data Structures Implementation in Python
 
 ## Index of Data Structures
-| **Name** | **Base Structure** | **File** | **Last Modified**
+| **Name** | **Base Structure / Approach** | **File** | **Last Modified**
 |:------- |:--------------------------------|:--------------------------------|:-----
 | Vector |Array (List)|[`vector.py`][vector]           | 8/22/2020 (GMT+9) |
 | Singly Linked List |Node| [`singly_linked_list.py`][sll]  |8/23/2020 (GMT+9) |
@@ -12,6 +12,7 @@ Data Structures Implementation in Python
 | Double-Ended Queue (Deque) |Doubly Linked List| [`deque.py`][deque] |8/26/2020 (GMT+9) |
 | Priority Queue |Vector, Doubly Linked List, Heap| [`priority_queue.py`][pq]  |8/27/2020 (GMT+9) |
 | Min Heap | Array (List) | [`min_heap.py`][mh]  |8/27/2020 (GMT+9) |
+| Tree (Depth Calculation) | Recursive, Stack | [`tree_depth.py`][td]  |8/28/2020 (GMT+9) |
 
 <!---Reference Links-->
 [vector]:../master/vector.py
@@ -22,3 +23,4 @@ Data Structures Implementation in Python
 [deque]:../master/deque.py
 [pq]:../master/priority_queue.py
 [mh]:../master/min_heap.py
+[td]:../master/tree_depth.py
