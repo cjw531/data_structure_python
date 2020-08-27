@@ -4,6 +4,11 @@ class TreeNode:
         self.left = None
         self.right = None
 
+"""
+we do two calls, each on one half of the tree
+T(n) = 2 * T(n/2) + 1 = O(n)
+       ^-a     ^-b  ^-f(n)
+"""
 # assume that the given tree has at least 1 node (root)
 def depth_recursive (root):
     if (root == None):
