@@ -12,8 +12,8 @@ Data Structures Implementation in Python
 | Double-Ended Queue (Deque) |Doubly Linked List| [`deque.py`][deque] |8/26/2020 (GMT+9) |
 | Priority Queue |Vector, Doubly Linked List, Heap| [`priority_queue.py`][pq]  |8/27/2020 (GMT+9) |
 | Min Heap | Array (List) | [`min_heap.py`][mh]  |8/27/2020 (GMT+9) |
-| Tree (Depth Calculation) | Recursive, Stack | [`tree_depth.py`][td]  |8/28/2020 (GMT+9) |
-| Tree Traversal (Pre/In/Post Order) | Recursive | [`tree_traversal.py`][tt]  |8/28/2020 (GMT+9) |
+| Binary Tree (Depth Calculation) | Recursive, Stack | [`tree_depth.py`][td]  |8/28/2020 (GMT+9) |
+| Binary Tree Traversal (Pre/In/Post Order) | Recursive | [`tree_traversal.py`][tt]  |8/28/2020 (GMT+9) |
 
 <!---Reference Links-->
 [vector]:../master/vector.py
