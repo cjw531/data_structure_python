@@ -35,6 +35,7 @@ class HashTableChain:
             for i in range (0, len(self.hash_table[index])):
                 if (self.hash_table[index][i][0] == key):
                     self.hash_table[index].pop(i)
+                    self.element_size -= 0
                     return True
 
     def find (self, key):
@@ -54,6 +55,7 @@ class HashTableChain:
         temp = self.hash_table
         self.capacity *= 2
         self.hash_table = [None] * self.capacity
+        self.element_size = 0
         
         for i in temp:
             if (i != None):
