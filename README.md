@@ -17,6 +17,7 @@ Data Structures Implementation in Python
 | Binary Search Tree (BST) | Node, Recursive | [`binary_search_tree.py`][bst]  |8/29/2020 (GMT+9) |
 | AVL Tree (BST) | Node, Recursive | [`avl_tree.py`][avl]  |8/30/2020 (GMT+9) |
 | Map | Two Arrays (List) | [`map.py`][map]  |8/30/2020 (GMT+9) |
+| Hash Table | Separate Chaining: 2D Array (Nested List) | [`hash_table.py`][ht]  |8/30/2020 (GMT+9) |
 
 <!---Reference Links-->
 [vector]:../master/vector.py
@@ -32,3 +33,4 @@ Data Structures Implementation in Python
 [bst]:../master/binary_search_tree.py
 [avl]:../master/avl_tree.py
 [map]:../master/map.py
+[ht]:../master/hash_table.py
