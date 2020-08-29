@@ -14,6 +14,7 @@ Data Structures Implementation in Python
 | Min Heap | Array (List) | [`min_heap.py`][mh]  |8/27/2020 (GMT+9) |
 | Binary Tree (Depth Calculation) | Recursive, Stack | [`tree_depth.py`][td]  |8/28/2020 (GMT+9) |
 | Binary Tree Traversal (Pre/In/Post Order) | Recursive | [`tree_traversal.py`][tt]  |8/28/2020 (GMT+9) |
+| Binary Search Tree (BST) | Node, Recursive | [`binary_search_tree.py`][bst]  |8/29/2020 (GMT+9) |
 
 <!---Reference Links-->
 [vector]:../master/vector.py
@@ -26,3 +27,4 @@ Data Structures Implementation in Python
 [mh]:../master/min_heap.py
 [td]:../master/tree_depth.py
 [tt]:../master/tree_traversal.py
+[bst]:../master/binary_search_tree.py
