@@ -11,8 +11,6 @@ class Stack ():
         if (self.size > 0):
             self.stack.pop(self.size - 1)
             self.size -= 1
-            return 
-        return None
     
     def top (self):
         if (self.size > 0):
