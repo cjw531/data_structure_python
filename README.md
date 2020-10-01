@@ -13,6 +13,7 @@ Data Structures Implementation in Python
 | Priority Queue |Vector, Doubly Linked List, Heap| [`priority_queue.py`][pq]  |8/27/2020 (GMT+9) |
 | Min Heap | Array (List) | [`min_heap.py`][mh]  |8/27/2020 (GMT+9) |
 | Binary Tree (Depth Calculation) | Recursive, Stack | [`tree_depth.py`][td]  |8/28/2020 (GMT+9) |
+| Binary Tree (Count All Nodes) | Recursive | [`tree_count_node.py`][tc]  |10/2/2020 (GMT+9) |
 | Binary Tree Traversal (Pre/In/Post Order) | Recursive | [`tree_traversal.py`][tt]  |8/28/2020 (GMT+9) |
 | Binary Search Tree (BST) | Node, Recursive | [`binary_search_tree.py`][bst]  |8/29/2020 (GMT+9) |
 | AVL Tree (BST) | Node, Recursive | [`avl_tree.py`][avl]  |8/30/2020 (GMT+9) |
@@ -29,6 +30,7 @@ Data Structures Implementation in Python
 [pq]:../master/priority_queue.py
 [mh]:../master/min_heap.py
 [td]:../master/tree_depth.py
+[tc]:../master/tree_count_node.py
 [tt]:../master/tree_traversal.py
 [bst]:../master/binary_search_tree.py
 [avl]:../master/avl_tree.py
