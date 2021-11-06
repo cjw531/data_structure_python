@@ -47,8 +47,8 @@ class MinHeap:
         self.size -= 1
 
         parent_idx = 0
-        left_child_idx = child_idx = (2 * parent_idx) + 1
-        right_child_idx = child_idx = (2 * parent_idx) + 2
+        left_child_idx = (2 * parent_idx) + 1
+        right_child_idx = (2 * parent_idx) + 2
         while (left_child_idx <= self.size - 1):
             if (self.heap[parent_idx] > self.heap[left_child_idx]): # left child
                 self.heap[parent_idx], self.heap[left_child_idx] = self.heap[left_child_idx], self.heap[parent_idx]
@@ -57,8 +57,8 @@ class MinHeap:
                 self.heap[parent_idx], self.heap[right_child_idx] = self.heap[right_child_idx], self.heap[parent_idx]
 
             parent_idx += 1
-            left_child_idx = child_idx = (2 * parent_idx) + 1
-            right_child_idx = child_idx = (2 * parent_idx) + 2
+            left_child_idx = (2 * parent_idx) + 1
+            right_child_idx = (2 * parent_idx) + 2
         
     # O(1)
     def top (self):
